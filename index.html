@@ -1,15 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./main.css">
 </head>
+
 <body>
-    <header><h1>Movies.com</h1></header>
+    <header>
+        <h1>Movies.com</h1>
+    </header>
     <main>
         <form>
+            <h2>Add a movie to inventory</h2>
+            <label>Movie Title
+                <input required type="text" placeholder="ex. Cocaine Bear">
+            </label>
+            <label>Director
+                <input type="text" placeholder="ex. Christopher Nolan">
+            </label>
+            <label>Poster image url
+                <input type="url">
+            </label>
+            <label>Description
+                <textarea></textarea>
+            </label>
+            <label>Rating
+                <input type="number" max="5" min="-1">
+                <!-- later, I want to show rating by number of stars -->
+            </label>
+            <label>Availability
+                <input required type="text" placeholder="true/false">
+            </label>
+            <label>Price $
+                <input required type="">
+            </label>
+            <button type="submit">Submit</button>
         </form>
         <section id="movies">
             <ul>
@@ -25,7 +53,8 @@
         <li>About Us <!--expand into a mission statement--></li>
         <li>Contact us <!--expand into form--></li>
         <!-- when you click out of these list items the footer should revert to the above -->
-        </footer>
-    
+    </footer>
+
 </body>
+
 </html>
