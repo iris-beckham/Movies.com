@@ -23,10 +23,13 @@ label *{
     width: 95%;
 }
 
+.buttons {
+    display: inline-block;
+    justify-content: center;
+}
+
 button{
     width: 200px;
     padding: 10px;
-    justify-self: center;
-    margin-top: 10px;
-    display: contents;
+    margin: 5px 10px 0 10px;
 }
