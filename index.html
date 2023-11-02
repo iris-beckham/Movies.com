@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./main.css">
+    <script defer src="./main.js"></script>
 </head>
 
 <body>
@@ -15,30 +16,32 @@
     <main>
         <form>
             <h2>Add a movie to inventory</h2>
-            <label>Movie Title
-                <input required type="text" placeholder="ex. Cocaine Bear">
-            </label>
-            <label>Director
-                <input type="text" placeholder="ex. Christopher Nolan">
-            </label>
-            <label>Poster image 
-                <input type="url" placeholder="Website URL">
-                <input type="file" name="filename">
-            </label>
-            <label>Description
-                <textarea></textarea>
-            </label>
-            <label>Rating
-                <input type="number" max="5" min="-1">
-                <!-- later, I want to show rating by number of stars -->
-            </label>
-            <label>Availability
-                <input required type="text" placeholder="true/false">
-            </label>
-            <label>Price $
-                <input required type="">
-            </label>
-            <button type="submit">Submit</button>
+            <fieldset>
+                <label>Movie Title
+                    <input required type="text" placeholder="ex. Cocaine Bear">
+                </label>
+                <label>Director
+                    <input type="text" placeholder="ex. Christopher Nolan">
+                </label>
+                <label>Poster image
+                    <input type="url" placeholder="Website URL">
+                    <input type="file" name="filename">
+                </label>
+                <label>Description
+                    <textarea></textarea>
+                </label>
+                <label>Rating
+                    <input type="number" max="5" min="-1">
+                    <!-- later, I want to show rating by number of stars -->
+                </label>
+                <label>Availability
+                    <input required type="text" placeholder="true/false">
+                </label>
+                <label>Price $
+                    <input required type="">
+                </label>
+                <button type="submit">Submit</button>
+            </fieldset>
         </form>
         <section id="movies">
             <ul>

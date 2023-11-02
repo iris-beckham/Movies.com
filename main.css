@@ -1,16 +1,21 @@
 * {
     font-family: serif;
 }
-form {
-    display: grid;
-    grid-column: 1;
-    border: 3px solid gold;
-    margin: 5px;
-    max-width: 600px;
 
+h2 {
+    text-align: center;
 }
 
-form label {
+fieldset, form {
+    display: grid;
+    grid-column: 1;
+    border: 1px solid gold;
+    /* border: none; */
+    margin: 5px;
+    max-width: 600px;
+}
+
+ label {
     padding: 5px 10px 5px 10px;
 }
 
@@ -21,5 +26,7 @@ label *{
 button{
     width: 200px;
     padding: 10px;
-    margin: 5px 10px 5px 10px;
+    justify-self: center;
+    margin-top: 10px;
+    display: contents;
 }
