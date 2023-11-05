@@ -1,0 +1,46 @@
+* {
+    font-family: serif;
+}
+
+h1 {
+    background: bisque;
+}
+
+h2 {
+    text-align: center;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    list-style: none;
+    background: bisque;
+    text-align: center;
+}
+
+fieldset, form {
+    display: grid;
+    border: 1px solid gold;
+    /* border: none; */
+    margin: 5px;
+    max-width: 600px;
+}
+
+ label {
+    padding: 5px 10px 5px 10px;
+}
+
+label *{
+    width: 95%;
+}
+
+.buttons {
+    display: inline-block;
+    justify-content: center;
+}
+
+button{
+    width: 200px;
+    padding: 10px;
+    margin: 5px 10px 0 10px;
+}
